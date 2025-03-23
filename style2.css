@@ -1,0 +1,161 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 15px 20px;
+}
+
+.judul {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    background: #0056b3;
+    border-radius: 5px;
+}
+
+/* Section 2: Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background: #f5f5f5;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Section 3: Biodata */
+.biodata {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.biodata-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.biodata-box {
+    background: #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.blue-text {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Section 4: Portofolio Slide */
+.portofolio {
+    text-align: center;
+    padding: 50px 20px;
+    background: #007bff;
+    color: white;
+}
+
+.portofolio-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portofolio-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.portofolio-box {
+    flex: 0 0 200px;
+    background: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.portofolio-box img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-btn {
+    background: white;
+    color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background: #ddd;
+}
+
+/* Footer */
+.footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

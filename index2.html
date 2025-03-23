@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css"> <!-- Menghubungkan ke CSS -->
+    <script defer src="script.js"></script> <!-- Menghubungkan ke JS -->
+</head>
+<body>
+
+    <!-- Section 1: Navbar -->
+    <nav class="navbar">
+        <div class="judul">Brand</div>
+        <ul class="menu">
+            <li><a href="#">Header</a></li>
+            <li><a href="#">Biodata</a></li>
+            <li><a href="#">Portofolio</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 2: Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Selamat Datang di Website Saya</h1>
+            <p> adalah Contoh Header dengan 2 kolom kiri berisi teks seperti ini..</p>
+            <button class="btn">Pelajari Lebih Lanjut</button>
+        </div>
+        <div class="hero-image">
+            <img src="a.png" alt="Gambar Contoh">
+        </div>
+    </section>
+
+    <!-- Section 3: Biodata -->
+    <section class="biodata">
+        <h2><span class="blue-text">Biodata</span></h2>
+        <p> A brief Introduction about me</p>
+        <div class="biodata-container">
+            <div class="biodata-box"><span class="blue-text">full name</span> John Doe</div>
+            <div class="biodata-box"><span class="blue-text">Education</span> S1 Informatikan</div>
+            <div class="biodata-box"><span class="blue-text">Pekerjaan</span> Web Developer</div>
+            <div class="biodata-box"><span class="blue-text">Contact</span> 0822810971</div>
+            <div class="biodata-box"><span class="blue-text">Hobi</span> Coding</div>
+            <div class="biodata-box"><span class="blue-text">Alamat</span> Prabumulih</div>
+        </div>
+    </section>
+
+    <!-- Section 4: Portofolio (Slide) -->
+    <section class="portofolio">
+        <h2>Portofolio</h2>
+        <div class="portofolio-wrapper">
+            <button class="nav-btn left" onclick="slideLeft()">&lt;</button>
+            <div class="portofolio-container">
+                <div class="portofolio-box">
+                    <img src="a.png" alt="Proyek 1">
+                    <p>Deskripsi Proyek 1</p>
+                </div>
+                <div class="portofolio-box">
+                    <img src="a.png" alt="Proyek 2">
+                    <p>Deskripsi Proyek 2</p>
+                </div>
+                <div class="portofolio-box">
+                    <img src="a.png" alt="Proyek 3">
+                    <p>Deskripsi Proyek 3</p>
+                </div>
+                <div class="portofolio-box">
+                    <img src="a.png" alt="Proyek 4">
+                    <p>Deskripsi Proyek 4</p>
+                </div>
+            </div>
+            <button class="nav-btn right" onclick="slideRight()">&gt;</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
